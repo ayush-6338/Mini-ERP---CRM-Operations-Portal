@@ -16,8 +16,4 @@ This project includes a Node.js/Express backend, a React frontend, and a Postgre
 
 You must manage and configure your environment variables before running the application. Create a `.env` file in the root of both the `backend` and `frontend` directories based on the examples below.
 
-**Backend (`backend/.env`):**
-```env
-PORT=3000
-DATABASE_URL=postgresql://user:password@localhost:5432/minierp
-JWT_SECRET=your_super_secret_jwt_key
+
